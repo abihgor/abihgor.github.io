@@ -10,112 +10,135 @@
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
+*{
+	margin:1;
+	padding: 1;
+}
+div#section1{
+	box-shadow: inherit;
+box-shadow: initial;
+box-shadow: unset;
+	box-shadow: 2px 3px 10px gray;
+	background-color:#FFEBE6;
+margin:50px;
+margin-left: 200px;
+margin-right: 200px;
+max-width: 2500px;
+padding: 64;
+align-content: center;
+}
+div#page{
+
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 20px;
+	max-width: 3500px;
+	
+}
+div#img0{
+
+	margin-left:5%;
+	
+	
+}
 </style>
 </head>
 <body>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:10px">
+<div  class="w3-row" id="page" >
 
   <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">Cultura chavin</h2>
-    <div class='w3-col'>
-    	<img src="/img/cultura-chavin-peru.jpg" class="w3-image" style="width:50%">
+  <div class="w3-container w3-padding-32" id="section1">
+
+    <h1 style="margin-left: 8%"><font face="times"; size="14";>Cultura chavin</font></h1>
+
+    <div class='w3-container' id="img0">
+    	<img src="img/cultura-chavin-peru.jpg">
+    	
     </div>	
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-      </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-      </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
-      </div>
-    </div>
-  </div>
+    <div class="w3-container w3-justify" style=" max-width: 1000px;margin-right:200px;" ><p><font size="5"; face="times"><b>La Cultura Chavin</b>, tuvo una gran expresión artística representados en las esculturas de su templo, las más relevantes fueron las Cabezas Clavas y el Lanzón Monolítico.</p></font></div>
 
-  <!-- The Tour Section -->
-  <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">TOUR DATES</h2>
-      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+ 	<div class="w3-container" style="max-width:1000px;"><p class="w3-justify"><font size="5"; face="times roman";>El sitio arqueológico de la cultura Chavin debe su nombre a la cultura que se desarrolló entre los años 1200 y 400 a.c en este valle alto de los Andes peruanos. Este antiguo lugar de culto es uno de los primeros y más conocidos sitios precolombinos. Su aspecto es llamativo, con el complejo de terrazas y plazas, rodeadas por estructuras de piedra labrada, y principalmente la ornamentación zoomórfica.</p></font></div>
+   
+    
 
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
-      </ul>
 
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>New York</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Paris</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>San Francisco</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
+ <h2 class="w3-justify"><u><i>Ubicación Geográfica</i></u></h2>
+    <div class="w3-row w3-padding-32" style="max-width:1000px;">
+      <div class=" w3-padding-16 w3-container"; >
+        
+        <p class="w3-margin-right" style="text-align: left;"><font size="4"><img src="img/map.jpg" class="w3-round w3-margin-bottom w3-margin-right" style="width:20%" align="left">El pueblo de Chavin de Huántar, se encuentra ubicado en el Callejón de Conchucos en el lado oriental de la Cordillera Blanca, en la confluencia de los ríos Mosna y Huachecsa, afluentes del río Marañon; en el actual distrito de Chavin de Huántar, en la provincia de Huari, en la región Ancash en un valle alto de los Andes peruanos, a una altitud de 3.177 m se construyó cerca de una de las más antiguas conocidas y admiradas sitios prehispánicos.
+Este sitio da nombre a la Cultura Chavín, una de las antiguas civilizaciones de América del Sur, que se desarrolló aproximadamente entre 1500 y 300 aC. Se precedió a las primeras civilizaciones regionales, como las Culturas Salinar, Lima y Nazca.
+Visitado en forma regular por los viajeros durante el siglo XIX, Chavín fue excavado en 1919 por el arqueólogo peruano Julio C. Tello, cuyo trabajo contribuyó a la reputación internacional del sitio. En 1945, una buena parte de los monumentos estaban cubiertos por un deslizamiento de tierra desastroso. Por otra parte, Chavín fue afectada por un terremoto en 1970.</p></font>
+
       </div>
-    </div>
-  </div>
-
-  <!-- Ticket Modal -->
-  <div id="ticketModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-teal w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('ticketModal').style.display='none'" 
-       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
-      </header>
       <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      	<h2 class="w3-margin-right" align="left">Organización Social y Política del Cultura Chavín</h2>
+      	<p class="w3-justify"> La Cultura Chavín fue una sociedad de clases, sacerdotes y guerreros acumulando recursos, mientras que las personas eran explotadas para producir más.
+	La mayoría de negocios que destacaron en la comunidad terminaron convirtiéndose en líderes, jefes, oficiales. Estos líderes obligaron a la comunidad a producir más y terminan imponiéndose a los demás a través del conocimiento de la naturaleza «Sacerdotes.» Los líderes de la Cultura Chavín han logrado construir grandes edificios en honor de los dioses. La razón principal para el progreso de Chavín de Huantar fue una agricultura moderna, productiva e innovadora.
+	Los sacerdotes: la casta sacerdotal eran los especialistas, científicos que dominaban la ciencia de la astronomía, lo que les dio una gran influencia y poder, técnicos agrícolas eran también geniales «ingenieros hidráulicos».
+	Nobleza Guerrera: Fue el encargado de contener el embate de las invasiones y disturbios en las regiones de la cultura Chavín. La compañía mantuvo la hegemonía, ya sea para proteger su modus vivendi, tenía un ejército capaz de garantizar las condiciones necesarias para su desarrollo.
+	El pueblo: Fueron las masas populares que tuvieron que pagar tributo a los dioses y gobernantes.</p>
       </div>
+
+      <div class="w3-container">
+      	<h2>Religión</h2>
+      	<p> Los historiadores pueden concluir a través del arte de la cultura Chavín que había deidades adoradas, eran politeístas. La deidad principal es un animal de gran tamaño como las serpientes con pelo y colmillos largos, esto fue considerado para equilibrar las energías opuestas. Había varias otras deidades que fueron adoradas por el pueblo de la cultura Chavín, incluyendo una deidad representada por la comida a través de un caimán, y una deidad del inframundo ilustrado como una anaconda.
+
+			Otra deidad popular, que es comúnmente asociado con varias otras 
+			culturas, tales como el antiguo Egipto, era el dios-gato. Poco se puede determinar sobre el dios-gato de acuerdo a la cultura Chavín, debido a las múltiples representaciones de felinos en otras sociedades religiosas antiguas.</p>
+      </div>
+      <div class="w3-container">
+      	<h2>Actividades Económicas</h2>
+      	<p> Sus principales actividades económicas en el comienzo de la civilización de la cultura Chavín fueron la recolección de plantas silvestres y cazar animales.
+			Los habitantes de la cultura Chavín tenían una agricultura muy desarrollada, el maíz que era su principal 
+			fuente de alimento así como la calabaza, el fréjol, el algodón, la papa, la quinua y el maní. Su ganadería se basa en la crianza de auquénidos como la llama, alpaca y cuyes.</p>
+      </div>
+      <div class="w3-container">
+      	<h2>Manifestaciones Culturales de la Cultura Chavín</h2>
+      	<h3>Arquitectura</h3>
+      	<p>	Su arquitectura se caracteriza por la construcción de una serie de terrazas y plazas construidas con piedras unidas formando una compleja red de galerías, y la decoración 	esculpida de los megalitos adornados inmensos.El carácter predominante ceremonial y cultural del complejo Chavín todo está muy claro.
+		El «proyecto arqueológico de Chavín«, que desde 1980 ha sido el foco de los esfuerzos conjuntos por parte de la Universidad Federico Villareal y la Fundación Volkswagen, ha hecho posible la reanudación de las excavaciones y salvaguardar el plan para el sitio bajo la supervisión del Instituto Nacionale de Cultura.</p><img src="img/arquitectura.jpg">
+      </div>
+      <div class="w3-container" style="margin:auto;">
+      	<h2>Templo de la de Chavín de Huantar</h2><p><h5>El templo de Chavín de Huantar fue construido en dos etapas:</h5><font size="4" face="calibri" ;>Primero se levantó el Templo Viejo o Castillo (900 – 500 a.C.), siguiendo un patrón arquitectónico muy especial, en forma de U. Una laberíntica red de galerias subterráneas se distribuye en el interior, con celdas que contienen pequeños nichos en las paredes y unas clavas salientes que se presume sirvieron para sostener algún tipo de iluminación. Ubicado en el centro de la red galerias, se encontró el objeto principal de culto: el Lanzón, que simbolizaba una divindad.
+
+		En la Segunda Etapa (500 – 200 a.C.) se contruyó el Templo Nuevo, con una estructura más amplia. Está precedido por lo que se han denominado el Pórtico de las Falcónidas, debido a los grabados que hay en las piedras que lo conforman. Este edificio se une, a través de una serie de escalinatas, con la Plaza Hundida, en cuyo centro probablemente se erigía el Obelisco Tello.</p></font><div class="w3-container" style="margin:auto"><img src="img/ruinas.jpg"></div>
+      </div>
+      <div class="w3-container" style="align-content: center;">
+      	<h1>Escultura</h1>
+      	<font face="calibri" size="4"><p>Las esculturas en bajo relieve sobre losas, dinteles y columnas se caracteriza por un repertorio esencialmente zoomorfos (jaguares, serpientes, cóndores, caimanes), al que se añaden los rostros humanos aquí y allá. Las Cabezas Clavas una especie de ménsula redondo grabado en las piedras de la pared (uno de los cuales sigue existiendo in situ en la pared del ‘Castillo’ en el flanco sur del templo) son una de las creaciones más apasionantes del arte monumental de la cultura Chavín.</p></font>
+      	<img src="img/escultura.jpg">
+      </div>
+      <div class="w3-container">
+      	<h1>videos</h1>
+      	<iframe width="500" height="360" src="https://www.youtube.com/embed/K1IiHbfoXU0" title="Julio Cesar Tello, Historia Peruana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      	
+      </div>
+     
     </div>
+    <div class="w3-container" >
+	<div class="w3-container w3-center w3-border w3-opacity" style="background-color:beige; max-width:2700px; max-height: 200px; margin:auto;"> 
+		<h1>Bibliografias</h1>
+		<div class="w3-container" style="background-color:lavender;">
+			<p>
+				López, Carlos y Aguilar, Julia (2012, 8 de septiembre). Cultura Chavín. <br>
+				Historia del Perú. https://historiaperuana.pe/periodo-autoctono/cultura-chavin
+			</p>
+		</div>
+
+	</div>
+</div>
   </div>
 
+ 
   <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
+  <div class="w3-container w3-black" style="margin-right: 10px;">
+    <h2 class="w3-wide w3-center";>Contact</h2>
     <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
-    <div class="w3-row w3-padding-32">
+    <div class="w3-row w3-content w3-padding-32" style="margin-right: 38%;">
       <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
       </div>
       <div class="w3-col m6">
         <form action="/action_page.php" target="_blank">
@@ -128,7 +151,7 @@ body {font-family: "Lato", sans-serif}
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+          <button class="w3-button w3-black w3-section w3-center" type="submit">Enviar</button>
         </form>
       </div>
     </div>
@@ -138,54 +161,17 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-black w3-xlarge" style="background-color:black;">
+  <a href="https://www.facebook.com/zach.shazl"><i class="fa fa-facebook-official w3-hover-opacity"><link rel="stylesheet" type="text/css" href="https://www.facebook.com/zach.shazl"> </i></a>
   <i class="fa fa-instagram w3-hover-opacity"></i>
   <i class="fa fa-snapchat w3-hover-opacity"></i>
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
-<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 
 </body>
 </html>
